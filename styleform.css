@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;500&display=swap');/*Fonte disponibilizada por Google Apis*/
+* {margin: 0 auto; padding: 0; font-family: 'Signika', sans-serif;
+;}
+
+body{
+	background-image: url(menugrand.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-color: gray;
+	
+	}
+
+#container{
+	margin: 0 auto;
+	text-align: center;
+	width: 480px;
+	height: 400px;
+	background-color: rgba(193, 208, 209, 0.45);
+	border-radius: 15px;
+	margin-top: 125px;
+}
+h1{font-size: 45px; color: whitesmoke; font-weight: 900;}
+h3{
+	padding-top: 15px;
+}
+
+input{
+	padding: 9px;
+	border-radius: 15px;
+	width: 50%;
+	margin-top: 35px;
+	padding-left: 46px;
+}
+#email{
+	background-image: url(women.png);
+	background-repeat: no-repeat;
+	background-size: 19px;
+	background-position: 10px;
+	background
+}
+#senha{
+	background-image: url(lock.png);
+	background-repeat: no-repeat;
+	background-size: 19px;
+	background-position: 9px;
+}
+select{
+	border-radius: 15px;
+	margin-top: 15px;
+	width: 29%;
+	text-align: center;
+	padding: 9px;
+}
+select:hover{
+	color: black;
+	font-size: 15px;
+	padding: 10px;
+}
+select:active{
+	font-size: 17px;
+}
+#logar{
+	width: 15%;
+	padding-left: 1px;
+	text-indent: 5px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+/**créditos **/
+/** icone cadeado
+ * <a href="https://www.flaticon.com/br/icones-gratis/senha" title="senha ícones">Senha ícones criados por Saepul Nahwan - Flaticon</a> **/
+/** imagem background da pagina: 
+Foto de Andrea Piacquadio: https://www.pexels.com/pt-br/foto/freelancer-masculino-negro-focado-usando-laptop-em-um-cafe-de-rua-3799115/
+**/ 
+/** icone profile
+<a href="https://www.flaticon.com/free-icons/woman" title="woman icons">Woman icons created by Freepik - Flaticon</a>**/
